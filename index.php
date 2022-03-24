@@ -54,9 +54,9 @@
             <h2>Top 3 Destinations Wild </h2>
           </div>
           <div id="galeries-photos-small">
-            <div id="amazonie"><div class="layer">Amazonie</div></div>
-            <div id="alaska"><div class="layer">Alaska</div></div>
-            <div id="tanzanie"><div class="layer">Tanzanie</div></div>
+            <div id="amazonie"><div class="layer"><a href="galeries-photos.php?galery=amazonie">Amazonie</a></div></div>
+            <div id="alaska"><div class="layer"><a href="galeries-photos.php?galery=alaska">Alaska</div></a></div>
+            <div id="tanzanie"><div class="layer"><a href="galeries-photos.php?galery=tanzanie">Tanzanie</div></a></div>
           </div>
         </section>
       <section>
