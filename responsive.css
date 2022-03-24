@@ -1,0 +1,198 @@
+/***********************************************************************
+************************ FORMAT MOBILE ******************************
+***********************************************************************/
+@media screen and (max-width: 720px){
+    #wrap {
+        display: flex;
+    }
+    nav#menu-principal {
+        display: none;
+    }
+    main#content {
+        margin: 6rem 2rem;
+    }
+    /***** HOMEPAGE *****/
+    main section#banner {
+        display: flex;
+        align-items: center;
+    }
+    main section#banner div#about{
+        width: 95%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    main section#main-section {
+        display: flex;
+        flex-direction: column;
+        margin: 25px;
+    }
+    h1{
+        display: none;
+    }
+    .flip-card-inner {
+        margin: 0 25px 0  0;
+    }
+
+    /***** Responsive page-destination****/
+    main#content:before {
+        background: transparent;
+    }
+
+    main#content {
+        margin:25px;
+    }
+
+    nav#menu-destination{
+        display:flex;
+        justify-content: space-evenly; 
+        margin: 0;
+        padding:0;
+    }
+
+    nav#menu-destination ul{
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-evenly;
+        gap:20px;
+        margin-top:5rem;
+    }
+
+    #menu-destination ul li a{
+        color: black;
+        text-decoration: none;
+    }
+
+    div.medium h3{
+        color:white;
+        padding:10px;
+        display: block;
+        background-color: rgba(76,76,76);
+        border-radius:10px 10px 0 0;
+    }
+
+    .photos-descriptions {
+        display:flex;
+        flex-direction: column;
+        margin-top: 0.7rem;
+        position:relative;
+        z-index:90;
+        gap:0;
+    }
+        
+    .medium{
+        margin-top: 2rem;
+        border-radius:10px 10px 0 0;
+    }
+    
+    div.descriptions{
+        color: white;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 1.2rem;
+        line-height: 1.5;
+        font-size:0.8rem;
+        border-radius:0 0 10px 10px;
+        height:auto;
+    }
+
+    .photos-descriptions div{
+        display:initial;
+    }
+    
+    .descriptions a{
+        color:white;
+    }
+
+    .photos-descriptions button a{
+        color:black;
+        text-decoration: none;
+    }
+
+    .photos-descriptions button {
+        background-color: burlywood;
+    }
+
+    /***** GALERIES PHOTOS *****/
+    main div#galeries-photos {
+        display: flex;
+        flex-direction: column;
+    }
+    main div#galeries-photos div {
+        height: 250px;
+    }
+}
+
+/***********************************************************************
+************************ FORMAT TABLETTE ******************************
+***********************************************************************/
+
+@media screen and (min-width: 721px) and (max-width: 1200px){
+    main#content {
+        margin: 6rem 2rem;
+    }
+
+    /***** HOMEPAGE *****/
+    main section#banner div#about{
+        width: 80%;
+        padding: 50px;
+        box-sizing: border-box;
+    }
+    main section#main-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /***** DESTINATIONS PAGE *****/
+
+    /*main#content {
+        margin:25px;
+    }*/
+
+    .medium{
+        width:300px;
+    }
+    div.descriptions{
+        height:560px;
+        display:flex;
+    }
+    .photos-descriptions div{
+        height:500px;
+    }
+
+    /***** GALERIES PHOTOS *****/
+    main div#galeries-photos {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 250px);
+    }
+    main div#galeries-photos div {
+        height: 250px;
+    }
+}
+
+/***** MEDIA QUERIES FORM PAGE *****/
+@media screen and (max-width: 1080px) {  
+    main.content-form {
+        display: grid;        
+        /*grid-column-start: ;*/
+        row-gap: 5px;        /* justify-content: center; */
+        /* flex-direction: column; */
+    }   
+    section#comments {
+        width: 100%;
+    }
+    form.reservation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: initial;
+        text-align: center;
+    }
+    #comment, .comment, .lastname, .firstname, .email, .contact, .destination, .numberPersons, .numberNight, .budget, .comments, .submit {
+        max-width: 450px;
+       
+    }
+    .submit {
+        margin-top: 2rem;
+    }
+}
