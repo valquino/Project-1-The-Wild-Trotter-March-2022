@@ -12,6 +12,10 @@ body {
     src: url("fonts/AlphaMonday.otf");
 }
 
+a {
+    cursor: pointer;
+}
+
 /***** HAMBURGER MENU *****/
 #wrap {
     font-family: sans-serif;
