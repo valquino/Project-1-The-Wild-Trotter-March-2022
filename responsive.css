@@ -5,6 +5,19 @@
     #wrap {
         display: flex;
     }
+
+    nav#menu-principal ul#menu li {
+        display: none;
+    }
+    nav#menu-principal ul#menu li#logo {
+        background: url('images/the-wild-trotter-logo-mobile.png') center center no-repeat;
+        width: 60px;
+        height: auto;
+        margin-left: 3rem;
+        border-radius: 5px;
+        display: block;
+    }
+
     nav#menu-principal {
         display: none;
     }
