@@ -13,13 +13,9 @@
         background: url('images/the-wild-trotter-project-logo-mobile.png') center center no-repeat;
         width: 60px;
         height: auto;
-        margin-left: 3rem;
+        margin-left: 3.5rem;
         border-radius: 5px;
         display: block;
-    }
-
-    nav#menu-principal {
-        display: none;
     }
     main#content {
         margin: 6rem 2rem;
