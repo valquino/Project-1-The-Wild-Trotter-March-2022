@@ -38,10 +38,6 @@
         background: transparent;
     }
 
-    main#content {
-        margin:25px;
-    }
-
     nav#menu-destination{
         display:flex;
         justify-content: space-evenly; 
@@ -53,13 +49,20 @@
         list-style: none;
         display: flex;
         flex-wrap: wrap;
-        justify-content:space-evenly;
-        gap:20px;
-        margin-top:5rem;
+        justify-content: space-evenly;
+        gap: 10px;
+        margin-top: 1rem;
+    }
+
+    #menu-destination ul li {
+        background: burlywood;
+        padding: 0.6rem;
+        border-radius: 10px;
     }
 
     #menu-destination ul li a{
         color: black;
+        font-weight: bold;
         text-decoration: none;
     }
 

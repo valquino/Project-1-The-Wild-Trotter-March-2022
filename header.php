@@ -16,6 +16,7 @@
     <header>
       <nav id="menu-principal">
         <ul id="menu">
+        <li id="logo"></li>
           <li><a href="index.php"><i class="fa-solid fa-house-user"></i>Accueil</a></li>
           <li><a href="destinations.php"><i class="fa-solid fa-map-location-dot"></i>Destinations</a></li>
           <li><a href="galeries-photos.php"><i class="fa-solid fa-camera-retro"></i>Galerie photos</a></li>

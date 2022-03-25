@@ -118,6 +118,17 @@ header nav ul#menu li {
     font-weight: bold;
 }
 
+header nav ul#menu li#logo {
+    background: url('images/the-wild-trotter-logo2.jpg') center center no-repeat;
+    width: 80px;
+    height: auto;
+    border-radius: 10px;
+}
+
+header nav ul#menu li#logo:hover { 
+    border-bottom: 4px solid transparent;
+}
+
 header nav ul#menu li i {
     padding-right: 1rem;
 }
