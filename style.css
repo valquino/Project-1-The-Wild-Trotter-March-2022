@@ -119,7 +119,7 @@ header nav ul#menu li {
 }
 
 header nav ul#menu li#logo {
-    background: url('images/the-wild-trotter-logo2.jpg') center center no-repeat;
+    background: url('images/the-wild-trotter-logo.jpg') center center no-repeat;
     width: 80px;
     height: auto;
     border-radius: 10px;
@@ -327,7 +327,6 @@ main section#essentials div#icon-essentiels{
   }
 
 /***** DESTINATIONS PAGE *****/
-
 .photos-descriptions {
     display:grid;
     grid-template-columns: 1fr 3fr;
@@ -386,6 +385,10 @@ main div#galeries-photos {
     margin-top: 50px;
 }
 
+main div#galeries-photos a, main div#galeries-photos a:visited {
+    color: white;
+    text-decoration: none;
+}
 main div#galeries-photos-small {
     color:  white;
     display: grid;
@@ -407,22 +410,22 @@ div#amazonie, div#alaska, div#tanzanie, div#nepal, div#tasmanie, div#laponie {
 }
 
 div#amazonie {
-    background: url("images/galeries/Amazonie/amazonie1.jpg") center center;
+    background: url("images/galeries/Amazonie/amazonie1.jpg") center center no-repeat;
 }
 div#alaska {
-    background: url("images/galeries/Alaska/alaska1.jpg") center center;
+    background: url("images/galeries/Alaska/alaska1.jpg") center center no-repeat;
 }
 div#tanzanie {
-    background: url("images/galeries/Tanzanie/tanzanie1.jpg") center center;
+    background: url("images/galeries/Tanzanie/tanzanie1.jpg") center center no-repeat;
 }
 div#nepal {
-    background: url("images/galeries/Nepal/nepal1.jpg") center center;
+    background: url("images/galeries/Nepal/nepal1.jpg") center center no-repeat;
 }
 div#tasmanie {
-    background: url("images/galeries/Tasmanie/tasmanie1.jpg") center center;
+    background: url("images/galeries/Tasmanie/tasmanie1.jpg") center center no-repeat;
 }
 div#laponie {
-    background: url("images/galeries/Laponie/laponie1.jpg") center center;
+    background: url("images/galeries/Laponie/laponie1.jpg") center center no-repeat;
 }
 
 main div#galeries-photos div.layer, main div#galeries-photos-small div.layer, div.layer-form {
