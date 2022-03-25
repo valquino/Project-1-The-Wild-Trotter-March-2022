@@ -5,9 +5,9 @@
         <div><h1>The Wild Trotter</h1></div>
         <div id="about">
           <h2>Qui suis-je ? </h2>
-          <p> Régulièrement au bout du monde, J'explore des terres inconnues. Je vous embarquerais dans des destinations au coeur de paysages insoupçonnés.
+          <p> Régulièrement au bout du monde, J'explore des terres inconnues. Je vous embarquerai dans des destinations au coeur de paysages insoupçonnés.
           </p>
-          <p> La Terre regorge de paysage et d'animaux sauvages. Je vous propose quelques séjours loin de chez vous pour observer et suivre les traces de ces animaux et ainsi vivre une expérience inoubliable dans la vie sauvage.
+          <p> La Terre regorge de paysages et d'animaux sauvages. Je vous propose quelques séjours loin de chez vous pour observer et suivre les traces de ces animaux et ainsi vivre une expérience inoubliable dans la vie sauvage.
           </p>
         </div>
       </section>
