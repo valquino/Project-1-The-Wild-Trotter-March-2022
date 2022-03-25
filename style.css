@@ -119,7 +119,7 @@ header nav ul#menu li {
 }
 
 header nav ul#menu li#logo {
-    background: url('images/the-wild-trotter-logo.jpg') center center no-repeat;
+    background: url('images/the-wild-trotter-logo.png') center center no-repeat;
     width: 80px;
     height: auto;
     border-radius: 10px;
@@ -385,7 +385,8 @@ main div#galeries-photos {
     margin-top: 50px;
 }
 
-main div#galeries-photos a, main div#galeries-photos a:visited {
+main div#galeries-photos a, main div#galeries-photos a:visited,
+main div#galeries-photos-small a, main div#galeries-photos-small a:visited {
     color: white;
     text-decoration: none;
 }
